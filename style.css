@@ -1,0 +1,413 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    line-height: 80px;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.8);
+}
+
+header a{
+    font: 16px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, transparent 50%, #33ddcc 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: 0.3s;
+}
+
+header a:hover{
+    color: #663300;
+    background-position: -100% 0;
+}
+
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+
+header p{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.firstView h1{
+    font-size: 64px;
+    text-align:center;
+    padding-top: 320px;
+    letter-spacing: 0.12em;
+}
+
+.firstView p{
+    font-size: 14px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.firstView {
+    background-image: url(images/kobe.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.about{
+    padding: 180px;
+    background-color: #fffacd;
+}
+
+.profile h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+
+.profile h3{
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.profile p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.profile img{
+    width: 480px;
+    height: auto;
+    margin-left: 100px;
+    border-radius: 5%;
+}
+
+.profile .profile-text{
+    width: 500px;
+    float: left;
+    line-height: 200%;
+}
+
+.profile .profile-text span{
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.school-club{
+    flex-wrap:wrap;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-club img{
+    width: 480px;
+    height: 270px;
+    border-radius: 16px;
+}
+
+.school-club h3{
+    margin-top: 8px;
+}
+
+.school-club p{
+    margin-top: 16px;
+}
+
+.school-club a{
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-top: 32px;
+}
+
+.favorite h2{
+    font-size: 64px;
+}
+
+.favorite{
+    text-align: left;
+    padding: 180px 180px 150px 180px;
+}
+
+.favorite h2{
+    font-size:64px;
+    color: black;
+    letter-spacing: 0.1em;
+}
+
+.favorite img{
+    margin-top: 50px;
+}
+.favorite-contents{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite-content{
+    width: 320px;
+    /* margin: 0 auto; */
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+}
+
+.favorite-content img{
+    width: 200px;
+    height: 200px; 
+     border-radius: 50%;
+}
+
+.favorite-content h3{
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.favorite-content p{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 32px;
+}
+
+.works h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+}
+
+.works{
+    padding: 180px;
+    text-align: center;
+    background-color: #fffdf3;
+}
+
+.works-content{
+    background-color: #ffffff;
+    display: flex;
+    padding: 40px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+.works-content img{
+    width: 320px;
+    height: 180px;
+}
+
+.works-content h3{
+    font-size: 28px;
+}
+
+.works-content span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.works-content p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.works-text{
+    margin-left: 32px;
+}
+
+.contact{
+    padding: 180px 370px;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+}
+
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    text-align: left;
+}
+
+.contact a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    display: inline-block;
+    width: 200px;
+    line-height: 80px;
+    border-radius: 16px;
+}
+
+.contact .sns-twitter{
+    background-color: #00acee;
+}
+
+.contact .sns-facebook{
+    background-color: #3b5998;
+}
+
+.contact .sns-instagram{
+    background-color: #CF2E92;
+}
+
+.contact .sns{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .sns a:hover{
+    color: black;
+    background: #f0e299;
+}
+
+footer{
+    height: 80px;
+    background-color: #edece7;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*スクロールダウン全体の場所*/
+.scrolldown4{
+    /*描画位置※位置は適宜調整してください*/
+	position:absolute;
+	bottom:1%;
+	right:50%;
+    /*矢印の動き1秒かけて永遠にループ*/
+	animation: arrowmove 1s ease-in-out infinite;
+}
+
+/*下からの距離が変化して全体が下→上→下に動く*/
+@keyframes arrowmove{
+      0%{bottom:1%;}
+      50%{bottom:3%;}
+     100%{bottom:1%;}
+ }
+
+/*Scrollテキストの描写*/
+.scrolldown4 span{
+    /*描画位置*/
+	position: absolute;
+	left:-20px;
+	bottom:10px;
+    /*テキストの形状*/
+	color: #eee;
+	font-size: 0.7rem;
+	letter-spacing: 0.05em;
+	/*縦書き設定*/
+	-ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+/* 矢印の描写 */
+.scrolldown4:before {
+    content: "";
+    /*描画位置*/
+    position: absolute;
+    bottom: 0;
+    right: -6px;
+    /*矢印の形状*/
+    width: 1px;
+    height: 20px;
+    background: #eee;
+    transform: skewX(-31deg);
+}
+
+.scrolldown4:after{
+	content:"";
+    /*描画位置*/
+	position: absolute;
+	bottom:0;
+	right:0;
+    /*矢印の形状*/
+	width:1px;
+	height: 50px;
+	background:#eee;
+}
+
+/*　画像の縮小＋テキスト出現　*/
+
+.zoomOutText{/*背景色とテキストの基点となる位置を定義*/
+	position: relative;
+    margin: 10px;
+}
+
+.school-club a{
+    text-decoration: none;
+}
+
+.zoomOutText span.mask{
+	position: relative;
+	transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+	display: block;/*画像をくくるspanタグをブロック要素にする*/
+    line-height: 0;/*行の高さを0にする*/
+    overflow:hidden;/*拡大してはみ出る要素を隠す*/
+    border-radius: 8%;
+}
+
+.zoomOutText:hover span.mask::before{/*hoverした時の変化*/
+	content:"";
+	position: absolute;
+	z-index:2;
+	top:10px;
+	left:10px;
+	width: calc(100% - 20px);
+    height: calc(100% - 20px);
+	background:rgba(0,0,0,0.5);/*背景色*/
+    border-radius: 8%;
+}
+
+.zoomOutText img{
+	transform: scale(1.1);
+	filter: blur(0);
+	transition: .3s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.zoomOutText:hover img{/*hoverした時の変化*/
+	transform: scale(1);/*縮小の値を変更したい場合はこの数値を変更*/
+	filter: blur(2px);/*ぼかし具合を変更したい場合はこの数値を変更*/
+}
+
+.zoomOutText span.cap{
+	opacity:0;
+	transition: .5s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+	position: absolute;
+	z-index:3;/*テキストを前面に出す*/
+	top: 50%;
+    left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;/*テキストの色を変えたい場合はここを修正*/
+    line-height: 1.5;/*行の高さを1.5にする*/
+}
+
+.zoomOutText:hover span.cap{/*hoverした時の変化*/
+	opacity:1;
+}
